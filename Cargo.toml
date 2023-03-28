@@ -39,3 +39,7 @@ features = [
 
 [lib]
 crate-type = ["cdylib"]
+
+[[lib]]
+name = "wasm_test"
+path = "src/lib1.rs"
