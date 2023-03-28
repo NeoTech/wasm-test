@@ -38,8 +38,7 @@ features = [
 ]
 
 [lib]
-crate-type = ["cdylib"]
-
-[[lib]]
-name = "wasm_test"
+name = "wasm_lib"
 path = "src/lib1.rs"
+crate-type = ["cdylib"]
+target = "wasm32-unknown-unknown"
